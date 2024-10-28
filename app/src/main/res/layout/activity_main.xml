@@ -38,7 +38,7 @@
                 android:layout_weight="1"
                 android:text="Inbox"
                 android:textColor="#fff"
-                android:textSize="30sp" />
+                android:textSize="24sp" />
 
             <ImageView
                 android:id="@+id/imageView2"
