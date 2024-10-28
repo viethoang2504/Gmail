@@ -29,7 +29,7 @@ public class CustomAdapter(private val context: Context,
         // Get the current item
         val currentItem = getItem(p0)
 
-        val avatarColors = listOf("#5e96fa","#9bcb62","#94a5ac","#ff8866","#f48cd7")
+        val avatarColors = listOf("#4A83F6", "#84B84A", "#7E8E96", "#FF7750", "#F36AB8")
 
         // Set up the views with the item data
         val senderName = view.findViewById<TextView>(R.id.textView)

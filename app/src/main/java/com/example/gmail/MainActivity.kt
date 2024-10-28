@@ -18,17 +18,18 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         val sampleData = listOf(
-            ListItem(senderName = "John Doe", content = "Meeting Reminder: Project Kickoff scheduled for next Monday at 10 AM in the main conference room. Please come prepared with your project updates.", time = "Yesterday, 3:45 PM", isLike = false),
-            ListItem(senderName = "Jane Smith", content = "Your Invoice is Ready: The invoice for your recent purchase is now available for download. Please review the details and let us know if you have any questions.", time = "Oct 26, 10:00 AM", isLike = true),
-            ListItem(senderName = "Mike Johnson", content = "Weekly Team Update: This week's update includes important information regarding project timelines and deliverables. Please ensure you check your email regularly.", time = "Oct 25, 1:30 PM", isLike = false),
-            ListItem(senderName = "Sara Connor", content = "Invitation to Company Event: We are excited to invite you to our annual company event. It will be held on Friday at 6 PM, and we look forward to seeing you there!", time = "Oct 24, 4:15 PM", isLike = true),
-            ListItem(senderName = "Tom Hanks", content = "Don't Forget Our Lunch Tomorrow: Just a quick reminder about our lunch meeting scheduled for tomorrow at noon. Looking forward to discussing the new project!", time = "Oct 23, 12:00 PM", isLike = false),
-            ListItem(senderName = "Alice Cooper", content = "New Features Available in the App: We have rolled out some exciting new features in the app. Be sure to check them out and let us know your feedback!", time = "Oct 22, 9:30 AM", isLike = true),
-            ListItem(senderName = "Bob Marley", content = "Feedback Request on Recent Changes: We value your input and would love to hear your thoughts on the recent changes made to the platform. Your feedback is crucial for us to improve.", time = "Oct 21, 5:00 PM", isLike = false),
-            ListItem(senderName = "Eve Adams", content = "Your Subscription Has Been Renewed: This is to confirm that your subscription has been successfully renewed for another year. Thank you for being a loyal customer!", time = "Oct 20, 11:45 AM", isLike = true),
-            ListItem(senderName = "Grace Hopper", content = "Let's Catch Up Soon: It's been a while since we last met! I would love to catch up and hear what you've been up to. Let me know your availability.", time = "Oct 19, 8:30 AM", isLike = false),
-            ListItem(senderName = "Henry Ford", content = "Check Out Our Latest Offers: We have some amazing offers available this week. Don’t miss out on the opportunity to grab the best deals before they end!", time = "Oct 18, 6:00 PM", isLike = true)
+            ListItem(senderName = "David Brown", content = "Project Completion Notice: Your recent project has been successfully completed. Please review the final report and provide feedback.", time = "Today, 9:15 AM", isLike = false),
+            ListItem(senderName = "Emma Wilson", content = "Payment Confirmation: We have received your payment. Thank you for your prompt response. Let us know if you have any issues with your account.", time = "Yesterday, 4:20 PM", isLike = true),
+            ListItem(senderName = "Sophia Davis", content = "Quarterly Review Meeting: Don't forget about our quarterly review meeting next Wednesday. Be prepared to discuss progress and future plans.", time = "Oct 27, 11:00 AM", isLike = false),
+            ListItem(senderName = "Liam Miller", content = "Important Policy Update: Please be informed about the latest updates in our company policies. Make sure to review them by the end of this week.", time = "Oct 26, 2:45 PM", isLike = true),
+            ListItem(senderName = "Olivia Taylor", content = "Team Outing Invitation: Join us for an upcoming team outing on Saturday! It’s a great opportunity to relax and bond with colleagues.", time = "Oct 25, 3:00 PM", isLike = false),
+            ListItem(senderName = "Ethan Anderson", content = "New Security Features Launched: We’ve enhanced our security protocols. Please update your app to the latest version for improved protection.", time = "Oct 24, 8:15 AM", isLike = true),
+            ListItem(senderName = "Mia Martinez", content = "Customer Feedback Survey: Your input is invaluable to us! Take a few moments to complete our survey and help us serve you better.", time = "Oct 23, 10:50 AM", isLike = false),
+            ListItem(senderName = "James Wilson", content = "Service Renewal Reminder: Your service is due for renewal in a few days. Please renew to avoid any interruption.", time = "Oct 22, 5:30 PM", isLike = true),
+            ListItem(senderName = "Charlotte Lee", content = "Happy Birthday! We wish you all the best on your special day. Enjoy your celebration!", time = "Oct 21, 7:20 AM", isLike = false),
+            ListItem(senderName = "Alexander King", content = "New Job Openings: We are hiring! Check out the latest job openings in our company and refer anyone who might be interested.", time = "Oct 20, 12:15 PM", isLike = true)
         )
+
 
         val listView: ListView = findViewById(R.id.listView)
         val adapter = CustomAdapter(this, sampleData)
